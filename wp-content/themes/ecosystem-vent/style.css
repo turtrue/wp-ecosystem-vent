@@ -231,7 +231,7 @@ a {
     height: var(--logo-height);
     display: inline-block;
 }
-.header__logo svg {
+.header__logo img {
     height: 100%;
 }
 
@@ -534,7 +534,7 @@ a {
 .footer__logo {
     display: block;
 }
-.footer__logo svg {
+.footer__logo img {
     margin-left: -1.1em;
     width: 300px;
 }
@@ -560,14 +560,22 @@ a {
     opacity: 0.8;
 }
 .footer__soc-link--instagram svg {
+    width: 50px;
     height: 50px;
 }
 .footer__soc-link--whatsapp svg {
+    width: 50px;
     height: 42px;
 }
-.footer__soc-link--vk svg,
+.footer__soc-link--vk svg {
+    width: 64px;
+    height: 50px;
+    transform: translateY(5px);
+}
 .footer__soc-link--youtube svg {
-    height: 37px;
+    width: 54px;
+    height: 50px;
+    transform: translateY(6px);
 }
 .footer__contacts-title-wrapper {
     padding-right: 1em;

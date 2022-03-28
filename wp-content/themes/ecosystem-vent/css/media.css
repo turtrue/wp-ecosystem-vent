@@ -136,7 +136,7 @@
     .footer {
         font-size: 1.4rem;
     }
-    .footer__logo svg {
+    .footer__logo img {
         width: 100%;
     }
     .footer__logo-descr {
@@ -165,6 +165,7 @@
     :root {
         --radius: 1em;
         --logo-height: 60px;
+        --text-font-size: 1.7rem;
     }
 
     .about__title {
@@ -194,11 +195,14 @@
     .form__bg {
         padding: 2em 0 4em;
     }
+    .form__title {
+        font-size: calc(var(--title-font-size) / 1.5);
+    }
     .form__body {
         padding: 3em 0.5em;
     }
 
-    .footer__logo svg {
+    .footer__logo img {
         margin-left: -1.3em;
         width: 250px;
     }
